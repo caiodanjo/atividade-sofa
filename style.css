@@ -27,14 +27,41 @@ div {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
     text-transform: uppercase;
     margin-bottom: 1rem;
+    color: #271A45;
 }
 
 h1 {
     font-family: "Crimson Pro", serif;
     font-size: 2.3rem;
     font-weight: 600;
+    margin-bottom: 0.6rem;
+    color: #271A45;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 1.5rem;
+    color: #271A45;
+}
+
+button {
+    border: 1px solid black;
+    padding: 0.7rem 1.1rem;
+    border-radius: 999px;
+    color: #271A45;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #271A45;
+    color: white;
 }
