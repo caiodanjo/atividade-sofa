@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
 body {
@@ -13,12 +14,27 @@ figure {
     display: flex;
     justify-content: center;
     margin-top: 3rem;
+    margin-bottom: 0.2rem;
 }
 
 img {
-    border: 1px solid red;
+    width: 32rem;
+}
+
+div {
+    width: 24%;
+    margin-left: 38%;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
 }
 
 h1 {
     font-family: "Crimson Pro", serif;
+    font-size: 2.3rem;
+    font-weight: 600;
 }
